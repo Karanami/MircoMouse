@@ -467,7 +467,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SmSemProject.kicad_pro",
+    "filename": "MircoMouse.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -613,7 +613,7 @@
   "sheets": [
     [
       "2d1fee9c-ff28-4ed3-bed9-80ad18eb590f",
-      ""
+      "Główny"
     ],
     [
       "f72e7ef6-ff36-4e66-b7fe-270099ead489",
