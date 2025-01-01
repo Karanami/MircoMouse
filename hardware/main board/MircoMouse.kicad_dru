@@ -1,0 +1,5 @@
+(version 1)
+(rule "QSPI"
+	(condition "A.NetClass == 'QSPI'")
+	(constraint length (min "32.15mm") (opt "32.15mm"))
+)

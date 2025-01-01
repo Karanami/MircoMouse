@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "2d1fee9c-ff28-4ed3-bed9-80ad18eb590f")
 	(paper "A3")
+	(title_block
+		(title "Mirco Mouse")
+		(date "2025-01-02")
+		(rev "1.0")
+		(company "Made by: Piotr Lesicki")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -5082,16 +5088,16 @@
 		(uuid "a741da7b-4c0c-4d9b-b45c-0478d5a50aa3")
 	)
 	(junction
-		(at 283.21 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a82ce255-3b61-46f6-b340-4d73c1bb793e")
-	)
-	(junction
 		(at 74.93 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae130fd7-091a-4d7d-a3b7-bd2b4be70a6d")
+	)
+	(junction
+		(at 281.94 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b08f670d-d284-4b2e-a4da-1d83318441cc")
 	)
 	(junction
 		(at 143.51 256.54)
@@ -5349,7 +5355,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 226.06) (xy 283.21 228.6)
+			(xy 281.94 226.06) (xy 281.94 228.6)
 		)
 		(stroke
 			(width 0)
@@ -5539,7 +5545,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 218.44) (xy 283.21 215.9)
+			(xy 293.37 218.44) (xy 293.37 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5759,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 218.44) (xy 280.67 218.44)
+			(xy 281.94 218.44) (xy 279.4 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5989,6 +5995,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 218.44) (xy 281.94 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bcf5f3d-15a6-4175-b879-5ed139305d2a")
+	)
+	(wire
+		(pts
 			(xy 219.71 36.83) (xy 288.29 36.83)
 		)
 		(stroke
@@ -6126,16 +6142,6 @@
 			(type default)
 		)
 		(uuid "71486056-6754-4d02-93d5-7ecb00159c08")
-	)
-	(wire
-		(pts
-			(xy 293.37 218.44) (xy 283.21 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b48d5d-5772-4be8-a826-5077dd0a5929")
 	)
 	(wire
 		(pts
@@ -6279,7 +6285,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 215.9) (xy 283.21 215.9)
+			(xy 295.91 215.9) (xy 293.37 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6379,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 220.98) (xy 283.21 218.44)
+			(xy 281.94 220.98) (xy 281.94 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6399,7 +6405,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 228.6) (xy 283.21 228.6)
+			(xy 293.37 228.6) (xy 281.94 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7488,7 +7494,7 @@
 		(uuid "dc545061-3933-440b-a4c3-c272808c7d5b")
 	)
 	(label "M_RIGHT-"
-		(at 368.307 34.1021 180)
+		(at 368.3 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7510,7 +7516,7 @@
 		(uuid "11e792e5-259d-4a49-8b56-cd4042ab54ed")
 	)
 	(label "M_RIGHT+"
-		(at 368.307 31.5621 180)
+		(at 368.3 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7521,7 +7527,7 @@
 		(uuid "28e996fd-edb3-4e38-a7d9-df50a5a55885")
 	)
 	(label "M_LEFT-"
-		(at 367.0387 64.5351 180)
+		(at 367.03 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7598,7 +7604,7 @@
 		(uuid "8f51b14b-98b3-4cef-90c1-d7bbb8a41565")
 	)
 	(label "M_LEFT+"
-		(at 367.0387 61.9951 180)
+		(at 367.03 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8365,19 +8371,21 @@
 		(dnp no)
 		(uuid "1dfd1bb1-64ad-4b0b-9098-575e79fa5dd0")
 		(property "Reference" "C27"
-			(at 288.29 222.25 0)
+			(at 290.83 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 288.29 224.79 0)
+			(at 290.83 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -9793,19 +9801,21 @@
 		(dnp no)
 		(uuid "58257266-6d64-4755-940b-f3e3cfac0c1b")
 		(property "Reference" "F2"
-			(at 81.28 83.82 90)
+			(at 77.47 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "0.5A/16V"
-			(at 81.28 86.1314 90)
+			(at 77.47 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
@@ -9977,7 +9987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 69.85 0)
+			(at 57.15 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10327,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 280.67 218.44 90)
+		(at 279.4 218.44 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10326,7 +10336,7 @@
 		(dnp no)
 		(uuid "68ddfcc0-198d-4bb7-9944-3a8b2498ebdb")
 		(property "Reference" "#PWR038"
-			(at 284.48 218.44 0)
+			(at 283.21 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10335,7 +10345,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 276.86 218.44 90)
+			(at 275.59 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +10354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 218.44 0)
+			(at 279.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +10363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 218.44 0)
+			(at 279.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10372,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 218.44 0)
+			(at 279.4 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11248,19 +11258,21 @@
 		(dnp no)
 		(uuid "7c55f4af-3f16-4922-bc40-a6d23610ecd5")
 		(property "Reference" "D3"
-			(at 85.09 73.66 90)
+			(at 77.47 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "RBS2LAM40CTR"
-			(at 85.09 76.2 90)
+			(at 77.47 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-128"
@@ -12786,10 +12798,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7718bf4-4baf-4695-ab97-03f8b741f4e1")
 		(property "Reference" "R12"
-			(at 120.65 263.525 0)
+			(at 120.65 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12798,7 +12809,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 120.65 266.065 0)
+			(at 120.65 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,10 +12960,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf0cb1b0-78b5-438d-a780-677b2bcb09a6")
 		(property "Reference" "R4"
-			(at 158.75 262.255 0)
+			(at 158.75 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12961,7 +12971,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 158.75 264.795 0)
+			(at 158.75 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,7 +14006,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 283.21 223.52 180)
+		(at 281.94 223.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14004,23 +14014,25 @@
 		(dnp no)
 		(uuid "ee542d5a-79b0-4f1d-9f85-f61a9fe8c650")
 		(property "Reference" "C28"
-			(at 278.13 222.25 0)
+			(at 279.4 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 278.13 224.79 0)
+			(at 279.4 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +14050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +14059,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "--"
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +14068,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "--"
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14065,7 +14077,7 @@
 			)
 		)
 		(property "Dodane do zamówienia" "20"
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14074,7 +14086,7 @@
 			)
 		)
 		(property "Mouser Part Number" "963-EMK107B7104MA-T"
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,7 +14095,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TAIYO-YUDEN/EMK107B7104MA-T?qs=I6KAKw0tg2yoDM4kgVF98Q%3D%3D"
-			(at 283.21 223.52 0)
+			(at 281.94 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14134,7 +14146,7 @@
 		(dnp no)
 		(uuid "f3e73d7d-921c-478b-bfde-a751ac6bc2a1")
 		(property "Reference" "F3"
-			(at 318.77 101.6 0)
+			(at 318.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14142,7 +14154,7 @@
 			)
 		)
 		(property "Value" "0.5A/16V"
-			(at 318.77 104.14 0)
+			(at 318.77 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "7e8d1d47-2bcb-416c-90cd-eed1a0497a8d")
 	(paper "A4")
+	(title_block
+		(title "Mirco Mouse")
+		(date "2025-01-02")
+		(rev "1.0")
+		(company "Made by: Piotr Lesicki")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
@@ -1998,19 +2004,21 @@
 		(dnp no)
 		(uuid "9d78fb11-401e-4a91-b316-308ea7080add")
 		(property "Reference" "C19"
-			(at 143.51 105.41 0)
+			(at 146.05 105.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 143.51 107.7214 0)
+			(at 146.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -2125,19 +2133,21 @@
 		(dnp no)
 		(uuid "a9b2acb2-fe37-4133-844d-49169950900c")
 		(property "Reference" "C19"
-			(at 134.62 77.47 0)
+			(at 132.08 74.7014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 134.62 75.1586 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -2251,19 +2261,21 @@
 		(dnp no)
 		(uuid "db799b7d-6b6d-4f72-a7b5-2fcd91777acf")
 		(property "Reference" "C18"
-			(at 90.17 76.2 90)
+			(at 93.98 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 92.71 76.2 90)
+			(at 93.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
